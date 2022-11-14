@@ -1,0 +1,40 @@
+
+*{
+    font-size: 18px;
+    
+
+}
+h1{
+    text-align: center;
+}
+h5{
+    color: rgb(62, 6, 6);
+}
+ul li{
+    color:blue;
+}
+.first{
+    font-size: 15px;
+}
+.likes{
+    color: rgb(2, 50, 2);
+    background-color: blueviolet;
+}
+.dislikes{
+    background-color: yellow;
+}
+#demo{
+color: green;
+}
+#eat{
+    color: red;
+}
+#sports{
+    color: red;
+}
+#garden{
+    color: green;
+}
+#late{
+    color: purple ;
+}

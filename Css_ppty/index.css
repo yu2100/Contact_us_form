@@ -1,0 +1,44 @@
+*{
+    background-color: white;
+    font-size: 18px;
+   
+}
+/* h1{
+    font-size: 18px;
+} */
+
+#intro {
+    color:green;
+    padding:2%;
+    margin:3px 60px 3px ;
+    border: 1px solid rgb(103, 47, 181);
+
+}
+.demo{
+    color:purple
+}
+
+#css {
+    color:red;
+
+}
+#differences {
+    color:blue;
+
+}
+
+
+p {
+    color: brown;
+    font-size: 14px;
+    padding:2%;
+    margin:3px 16px 3px ;
+    border: 1px solid brown;
+}
+.emphasized
+    {font-style: italic;
+}
+
+.set
+{font-style: italic;
+}

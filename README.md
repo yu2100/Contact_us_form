@@ -1,73 +1,60 @@
 Hosted on 
-https://vocal-kataifi-5955e2.netlify.app/
+https://deft-gingersnap-220922.netlify.app/
 
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Using External Libraries
+Working with forms
 
-In the project directory, you can run:
+Task:
+Create a Contact Us form that allows users to send you a message to make inquiries. The form should have the following fields:
+Name (required)
+Email (required and should be validated)
+Subject (optional)
+Message (required)
+Product Requirements 
+The name, email, and message fields are required. If fields are empty, display errors under each field
+The email field should be validated as an email. If the email entered is invalid, display an appropriate error under the email field.
+On successful submission, display a message at the top of your form indicating that the submission was successful.
+On successful submission, the form fields should be reset.
+If there is an error during the submission, display an error message at the top of the form informing the user that the submission wasn’t successful.
+Technical Requirements
+The form should be built using React
+You can use component libraries (MUI, ChakraUI, React-bootstrap) to build your form if you desire.
+You can choose to implement your form using third-party libraries like Formik if you desire.
+You can use Axios or fetch() for this assignment to post the form data to the API
+Optional Requirements
+On clicking on submit, add a loading indicator in the button to show that the form is submitting
 
-### `npm start`
+Resources
+Here is the API endpoint to send the user’s data to:
+https://my-json-server.typicode.com/tundeojediran/contacts-api-server/inquiries
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The data to post to the API endpoint should be in this format:
+{
+    "id": 3,
+    "name": "Tun Oje",
+    "email": "test2@test.com",
+    "subject": "test2 subject",
+    "message": "test2 message"
+}
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+where
+id - is the unique id for the data being posted. Use a third-party library like nanoid to generate this random id
+name - is the name of the user
+email - is the email of the user
+subject - is the subject of the inquiry 
+message - is the content of the inquiry
 
-### `npm test`
+Please note:
+Your work should not be in the main branch but in a separate branch with your chosen name.
+On completing the implementation, create a pull request (PR) pointing your working branch to the main branch.
+Get your mentor’s GitHub username and add him/her/them as your reviewer.
+What to submit in Citrone
+Submit the PR link
+Host your work on Netlify/Github Pages and submit the hosted link
+Useful Resources 
+https://blog.logrocket.com/how-to-use-axios-post-requests/
+https://jasonwatmore.com/post/2020/02/01/react-fetch-http-post-request-examples
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
